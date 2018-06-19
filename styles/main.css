@@ -103,6 +103,7 @@ body {
 
 #top-bar svg {
   height: 1.5em;
+  fill: #FFF;
 }
 
 #top-bar>svg:first-child {
