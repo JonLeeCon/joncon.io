@@ -101,20 +101,20 @@ body {
 
 /* Header SVGs */
 
-#top-bar object {
+#top-bar svg {
   height: 1.5em;
 }
 
-#top-bar>object:first-child {
+#top-bar>svg:first-child {
   margin-right: auto;
   padding-left: 1em;
 }
 
-#top-bar object:not(:first-child) {
+#top-bar svg:not(:first-child) {
   padding-left: 2em;
 }
 
-#top-bar>object:last-child {
+#top-bar>svg:last-child {
   padding-right: 1em;
 }
 
