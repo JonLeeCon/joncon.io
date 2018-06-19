@@ -1,0 +1,176 @@
+h3 {
+  color: #00476A;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italics {
+  font-style: italic;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.row-wrap {
+  -webkit-flex-flow: row wrap;
+	-moz-flex-flow: row wrap;
+	-ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+
+.row {
+  -webkit-flex-flow: row;
+	-moz-flex-flow: row;
+	-ms-flex-flow: row;
+  flex-flow: row;
+}
+
+.spaced {
+  justify-content: space-between;
+  align-items: center;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  width: 100%;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+/* Main Header */
+
+#banner {
+  background-color: #00476A;
+  color: #FFF;
+}
+
+#top-bar {
+  width: 100%;
+  padding: 1em 0 1em 0;
+}
+
+#banner-main {
+  max-width: 80%;
+  padding-left: 2em;
+  justify-content: center;
+}
+
+#banner-main img {
+  max-height: 20em;
+  background-color: #FFF;
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+}
+
+#banner-info {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+    
+  -webkit-flex-flow: column;
+	-moz-flex-flow: column;
+	-ms-flex-flow: column;
+  flex-flow: column;
+
+  text-align: right;
+  padding: 1em 0 2em 0;
+}
+
+#banner-info>span {
+  margin-top: auto;
+}
+
+#name {
+  font-size: 2.5em;
+}
+
+/* Header SVGs */
+
+#top-bar object {
+  height: 1.5em;
+}
+
+#top-bar>object:first-child {
+  margin-right: auto;
+  padding-left: 1em;
+}
+
+#top-bar object:not(:first-child) {
+  padding-left: 2em;
+}
+
+#top-bar>object:last-child {
+  padding-right: 1em;
+}
+
+/* Main Sections */
+
+main article {
+  padding: 0em 1em 0em 1em;
+  margin-bottom: 1em;
+}
+
+main>article>h3 {
+  border-bottom: solid thin;
+}
+
+main>article>section {
+  padding-bottom: 1em;
+}
+
+main>article>section>header>aside {
+  font-style: italic;
+}
+
+#experience>section>header>div {
+  padding-right: 2em;
+}
+
+#experience>section ul>li {
+  padding-bottom: 0.5em;
+}
+
+#awards>section>div {    
+  justify-content: center;
+  padding: 0.5em;
+}
+
+#awards>section>div:nth-child(odd) {
+  background-color: #E5ECF0;
+}
+
+#awards>section>div>div:first-child {
+  flex: 0 0 5em;
+  padding-right: 1em;
+  text-align: right;
+}
+
+#awards>section>div>div:last-child {
+  flex-grow: 1;
+}
+
+/* Footer */
+
+body>footer {
+  text-align: center;
+  padding: 1em;
+  background-color: rgb(242, 242, 242);
+  border-top: solid rgb(228, 228, 228) thin;
+  color: rgb(34, 34, 34);
+  font-size: 80%;
+}
