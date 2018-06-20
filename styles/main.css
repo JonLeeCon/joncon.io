@@ -184,11 +184,11 @@ body>header a {
 
 /* Header SVGs */
 
-#social-bar>a:hover>svg {
+#contact-bar>a:hover>svg {
   fill: #000;
 }
 
-#social-bar>a>svg {
+#contact-bar>a>svg {
   padding: 0.5em;
   background-color: #FFF;
   fill: #00476A;
