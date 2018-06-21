@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/joncon
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://joncon.io
+  * I am joncon (https://keybase.io/joncon) on keybase.
+  * I have a public key ASDr8XalVGmukMBZAp7K2DzO5V7vmEH-PS-kcEWCtrYT0wo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120ebf176a55469ae90c059029ecad83ccee55eef9841fe3d2fa4704582b6b613d30a",
+      "host": "keybase.io",
+      "kid": "0120ebf176a55469ae90c059029ecad83ccee55eef9841fe3d2fa4704582b6b613d30a",
+      "uid": "b5bc18d40c006181287789395c928319",
+      "username": "joncon"
+    },
+    "merkle_root": {
+      "ctime": 1529595430,
+      "hash": "a0e4fa0abdd2f923f0fed078bfc8677d5f9d92749b4d27c7099169563feaab842c50e7d27442d3befcee609e359eb6ceba59360bccfe1e271178e513fef05610",
+      "hash_meta": "3b3f97e51953834321c4976bb902033798b60aecb5d57ec604c92b96f473ce69",
+      "seqno": 3120409
+    },
+    "service": {
+      "entropy": "fkY3uS0OnSgbEW5lnAbpnJ+/",
+      "hostname": "joncon.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.0.0"
+  },
+  "ctime": 1529595440,
+  "expire_in": 504576000,
+  "prev": "965b89941125fe7d9c0b18d3627c1f7dec003f2907634eed215d93bc2b0ed267",
+  "seqno": 34,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg6/F2pVRprpDAWQKeytg8zuVe75hB/j0vpHBFgra2E9MKp3BheWxvYWTESpcCIsQglluJlBEl/n2cCxjTYnwffewAPykHY07tIV2TvCsO0mfEIFeae5io4Vc4twz+u3uwB1XaiJ3/6Qoy0KyFCJkyWGyUAgHCo3NpZ8RAUpnHjcCdEfSp1M6EqFAUOinWgzYesP4qCnxAoLyc9LrL+y+LD23k0Csm7R5qpcXJw71yFMq5uvgxJAFZFRD0CahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIGI+qgC2QERFFCynb7ThXyeelQGulsyM4YMsFZ4QzWrWo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/joncon
+
+==================================================================
