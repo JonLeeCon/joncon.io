@@ -1,227 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'none'; style-src https://fonts.googleapis.com 'self'; img-src 'self'; font-src https://fonts.gstatic.com https://fonts.googleapis.com 'self'; object-src 'self'; base-uri 'self'; form-action 'self';" />
-  <meta http-equiv="X-XSS-Protection" content="1" />
-  <meta http-equiv="X-Content-Type-Options" content="nosniff" />
-  <meta http-equiv="X-XSS-Protection" content="1; mode=block" />
-  <meta charset="utf-8" />
-  <meta name="author" content="Jonathan Constantinides" />
-  <meta name="description" content="Jonathan Constantinides - Software Architect" />
-  <title>joncon.io</title>
-  <link rel="canonical" href="https://joncon.io">
-  <link rel="alternate" hreflang="en" href="https://joncon.io">
-  <link rel="alternate" hreflang="x-default" href="https://joncon.io">
-  <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
-  <link rel="manifest" href="./site.webmanifest">
-  <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="theme-color" content="#ffffff">
 
-  <link rel="stylesheet" type="text/css" href="./styles/main.minify.css" />
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'none'; script-src 'none'; style-src https://fonts.googleapis.com 'self'; img-src 'self'; font-src https://fonts.gstatic.com https://fonts.googleapis.com 'self'; object-src 'self'; base-uri 'self'; form-action 'self';" />
+    <meta http-equiv="X-XSS-Protection" content="1" />
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block" />
+    <meta charset="utf-8" />
+    <meta name="author" content="Jonathan Constantinides" />
+    <meta name="description" content="Jonathan Constantinides - Software Architect" />
+    <title>joncon.io</title>
+    <link rel="canonical" href="https://joncon.io">
+    <link rel="alternate" hreflang="en" href="https://joncon.io">
+    <link rel="alternate" hreflang="x-default" href="https://joncon.io">
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+    <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" type="text/css" href="./styles/main.minify.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+
 <body>
-  <header>
-    <section id="banner-main">
-        <div>
-            <h1>JONATHAN CONSTANTINIDES</h1>
-            <h2>Security Engineer</h2>
-            <a href="mailto:jon@joncon.io"><h3>jon@joncon.io</h3></a>
-        </div>
-        <picture>
-            <source
-                srcset="./images/jon-large.jpg 1024w,
+    <header>
+        <section id="banner-main">
+            <div>
+                <h1>JONATHAN CONSTANTINIDES</h1>
+                <h2>VP, Engineering</h2>
+                <a href="mailto:jon@joncon.io">
+                    <h3>jon@joncon.io</h3>
+                </a>
+            </div>
+            <picture>
+                <source srcset="./images/jon-large.jpg 1024w,
                     ./images/jon-medium.jpg 640w,
                     ./images/jon-small.jpg 320w" />
-            <img src="./images/jon-small.jpg" alt="Jon" />
-        </picture>
-    </section>
-    <section id="contact-bar">
-        <a href="https://www.linkedin.com/in/joncon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430.12 411">
-                <title>LinkedIn</title>
-                <path d="M430.12,252V411H337.93V262.63c0-37.27-13.33-62.7-46.7-62.7-25.48,0-40.64,17.14-47.3,33.72-2.44,5.93-3.06,14.18-3.06,22.48V411H148.65s1.24-251.28,0-277.32h92.21V173c-.19.29-.43.61-.61.9h.61V173c12.25-18.87,34.13-45.82,83.1-45.82C384.63,127.17,430.12,166.8,430.12,252ZM52.18,0C20.64,0,0,20.69,0,47.91,0,74.52,20,95.85,51,95.85h.62c32.15,0,52.15-21.32,52.15-47.94C103.13,20.69,83.73,0,52.18,0ZM5.48,411H97.66V133.68H5.48Z"/>
-            </svg>
-        </a>
-        <a href="https://github.com/JonLeeCon/">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 31.22">
-                <title>GH</title>
-                <path d="M16,0a16,16,0,0,0-5.1,31.2c.8.1,1.1-.3,1.1-.8v-3c-4,.7-5.1-1-5.4-1.9A6.85,6.85,0,0,0,5,23.2c-.6-.3-1.4-1,0-1.1a3.44,3.44,0,0,1,2.5,1.6c1.4,2.4,3.7,1.7,4.7,1.3a3.45,3.45,0,0,1,1-2.1c-3.6-.4-7.3-1.8-7.3-7.9a6.33,6.33,0,0,1,1.6-4.3,5.42,5.42,0,0,1,.2-4.2S9,6.1,12.1,8.1a13.31,13.31,0,0,1,4-.5,17.52,17.52,0,0,1,4,.5c3.1-2.1,4.4-1.6,4.4-1.6a6,6,0,0,1,.2,4.2A6.15,6.15,0,0,1,26.3,15c0,6.1-3.7,7.5-7.3,7.9a3.82,3.82,0,0,1,1.1,3v4.4c0,.4.3.9,1.1.8A15.86,15.86,0,0,0,32,16,16,16,0,0,0,16,0Z"/>
-            </svg>
-        </a>
-    </section>
-  </header>
-  <main>
-      <article id="education">
-        <h3>EDUCATION</h3>
-        <section>
-            <header class="flex row-wrap spaced">
-                <div>
-                    <h4>B.S., Computer Engineering</h4>
-                    <div>University of Maryland Baltimore County - Baltimore, MD</div>
-                </div>
-                <aside>May 2015</aside>
-            </header>
+                <img src="./images/jon-small.jpg" alt="Jon" />
+            </picture>
         </section>
-      </article>
+        <section id="contact-bar">
+            <a href="https://www.linkedin.com/in/joncon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430.12 411">
+                    <title>LinkedIn</title>
+                    <path
+                        d="M430.12,252V411H337.93V262.63c0-37.27-13.33-62.7-46.7-62.7-25.48,0-40.64,17.14-47.3,33.72-2.44,5.93-3.06,14.18-3.06,22.48V411H148.65s1.24-251.28,0-277.32h92.21V173c-.19.29-.43.61-.61.9h.61V173c12.25-18.87,34.13-45.82,83.1-45.82C384.63,127.17,430.12,166.8,430.12,252ZM52.18,0C20.64,0,0,20.69,0,47.91,0,74.52,20,95.85,51,95.85h.62c32.15,0,52.15-21.32,52.15-47.94C103.13,20.69,83.73,0,52.18,0ZM5.48,411H97.66V133.68H5.48Z" />
+                </svg>
+            </a>
+            <a href="https://github.com/JonLeeCon/">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 31.22">
+                    <title>GH</title>
+                    <path
+                        d="M16,0a16,16,0,0,0-5.1,31.2c.8.1,1.1-.3,1.1-.8v-3c-4,.7-5.1-1-5.4-1.9A6.85,6.85,0,0,0,5,23.2c-.6-.3-1.4-1,0-1.1a3.44,3.44,0,0,1,2.5,1.6c1.4,2.4,3.7,1.7,4.7,1.3a3.45,3.45,0,0,1,1-2.1c-3.6-.4-7.3-1.8-7.3-7.9a6.33,6.33,0,0,1,1.6-4.3,5.42,5.42,0,0,1,.2-4.2S9,6.1,12.1,8.1a13.31,13.31,0,0,1,4-.5,17.52,17.52,0,0,1,4,.5c3.1-2.1,4.4-1.6,4.4-1.6a6,6,0,0,1,.2,4.2A6.15,6.15,0,0,1,26.3,15c0,6.1-3.7,7.5-7.3,7.9a3.82,3.82,0,0,1,1.1,3v4.4c0,.4.3.9,1.1.8A15.86,15.86,0,0,0,32,16,16,16,0,0,0,16,0Z" />
+                </svg>
+            </a>
+        </section>
+    </header>
+    <main>
+        <article id="education">
+            <h3>EDUCATION</h3>
+            <section>
+                <header class="flex row-wrap spaced">
+                    <div>
+                        <h4>B.S., Computer Engineering</h4>
+                        <div>University of Maryland Baltimore County - Baltimore, MD</div>
+                    </div>
+                    <aside>May 2015</aside>
+                </header>
+            </section>
+        </article>
 
-      <article id="experience">
-        <h3>EXPERIENCE</h3>
-        <section>
-          <header class="flex row-wrap spaced">
-              <div>
-                  <h4>Security Engineer</h4>
-                  <div>Bird - Venice, CA</div>
-              </div>
-              <aside>September 2018 - Current</aside>
-          </header>
-      </section>
-        <section>
-            <header class="flex row-wrap spaced">
-                <div>
-                    <h4>Software Architect</h4>
-                    <div>UpChannel - Newark, NJ</div>
-                </div>
-                <aside>November 2015 - Current</aside>
-            </header>
-            <div>
-                <ul>
-                    <li>Architected and managed production database + caching cluster including zero-downtime database upgrades</li>
-                    <li>Developed server-side endpoints and React/React Native frontend applications</li>
-                    <li>Architected and managed internal networks, CI/CD and containerized software for development + production environments</li>
-                    <li>Implemented log monitoring + management using AWS EMR, Kibana, Logstash and Elasticsearch</li>
-                    <li>Researched and developed distributed consensus algorithm for blockchain and in-app crypto wallet</li>
-                </ul>
-            </div>
-        </section>
-        <section>
-            <header class="flex row-wrap spaced">
-                <div>
-                    <h4>Infrastructure and Automation Engineer</h4>
-                    <div>Cisco - Columbia, MD</div>
-                </div>
-                <aside>July 2013 - November 2015</aside>
-            </header>
-            <div>
-                <ul>
-                    <li>Automated and incorporated security testing <span class="italics">(Core IMPACT/Nessus/IBM Appscan/Skipfish)</span> into CI/CD pipeline</li>
-                    <li>Developed infrastructure automation tool leveraging QualiSystems for teams to blueprint, model and deploy on-demand, self-service sandbox environments to reduce the lab’s footprint, efficiently schedule + share expensive physical appliances, and reduce manual setup</li>
-                    <li>Led and assisted POC engagements with multiple teams integrating their physical + virtual resources and specific feature requirements into our infrastructure automation tool</li>
-                </ul>
-            </div>
-        </section>
-        <section>
-            <header class="flex row-wrap spaced">
-                <div>
-                    <h4>Infrastructure and Automation Engineer</h4>
-                    <div>Sourcefire - Columbia, MD</div>
-                </div>
-                <aside>September 2012 – July 2013</aside>
-            </header>
-            <div>
-                <ul>
-                    <li>Automated, provisioned, and managed physical and virtual environments for an array of different teams</li>
-                    <li>Provided internal customized traffic sources comprised of aggregated tap feeds sourced from known intrusion/malware pcaps, commercial performance/threat tools, and live traffic</li>
-                    <li>Developed, tested and executed scripts for automation including vulnerability testing virtual and physical appliances</li>
-                </ul>
-            </div>
-        </section>
-        <section>
-            <header class="flex row-wrap spaced">
-                <div>
-                    <h4>Desktop Support</h4>
-                    <div>Division of Information Technology <span class="italics">(UMBC)</span> - Baltimore, MD</div>
-                </div>
-                <aside>October 2010 - September 2012</aside>
-            </header>
-            <div>
-                <ul>
-                    <li>New machine installation/configuration and general troubleshooting/campus-wide support</li>
-                    <li>General purpose programming and database form/query creation <span class="italics">(MS Access)</span> for specific needs</li>
-                </ul>
-            </div>
-        </section>
-        <section>
-            <header class="flex row-wrap spaced">
-                <div>
-                    <h4>Software Developer</h4>
-                    <div>Patton Electronics - Gaithersburg, MD</div>
-                </div>
-                <aside>October 2008 - January 2009</aside>
-            </header>
-            <div>
-                <ul>
-                    <li>Designed internship tool for the company to pay, assist and monitor paid interns</li>
-                    <li>Administered the behind the scenes programming for database tools and scripted PHP pages that used them</li>
-                </ul>
-            </div>
-        </section>
-      </article>
+        <article id="experience">
+            <h3>EXPERIENCE</h3>
+            <section>
+                <header class="flex row-wrap spaced">
+                    <div>
+                        <h4>VP, Engineering</h4>
+                        <div>HiveWatch - Los Angeles, CA</div>
+                    </div>
+                    <aside>April 2021 - Current</aside>
+                </header>
+            </section>
+            <section>
+                <header class="flex row-wrap spaced">
+                    <div>
+                        <h4>Security Engineer</h4>
+                        <div>Subspace - Playa Vista, California</div>
+                    </div>
+                    <aside>June 2020 - April 2021</aside>
+                </header>
+            </section>
+            <section>
+                <header class="flex row-wrap spaced">
+                    <div>
+                        <h4>Lead Engineer</h4>
+                        <div>Invisalert Solutions, Inc - West Chester, Pennsylvania</div>
+                    </div>
+                    <aside>March 2020 - August 2020</aside>
+                </header>
+            </section>
+            <section>
+                <header class="flex row-wrap spaced">
+                    <div>
+                        <h4>Security Engineer</h4>
+                        <div>Bird - Venice, CA</div>
+                    </div>
+                    <aside>September 2018 - March 2020</aside>
+                </header>
+            </section>
+            <section>
+                <header class="flex row-wrap spaced">
+                    <div>
+                        <h4>Software Architect</h4>
+                        <div>UpChannel - Newark, NJ</div>
+                    </div>
+                    <aside>November 2015 - September 2018</aside>
+                </header>
+            </section>
+            <section>
+                <header class="flex row-wrap spaced">
+                    <div>
+                        <h4>Infrastructure and Automation Engineer</h4>
+                        <div>Cisco - Columbia, MD</div>
+                    </div>
+                    <aside>July 2013 - November 2015</aside>
+                </header>
+            </section>
+            <section>
+                <header class="flex row-wrap spaced">
+                    <div>
+                        <h4>Infrastructure and Automation Engineer</h4>
+                        <div>Sourcefire - Columbia, MD</div>
+                    </div>
+                    <aside>September 2012 – July 2013</aside>
+                </header>
+            </section>
+            <section>
+                <header class="flex row-wrap spaced">
+                    <div>
+                        <h4>Desktop Support</h4>
+                        <div>Division of Information Technology <span class="italics">(UMBC)</span> - Baltimore, MD
+                        </div>
+                    </div>
+                    <aside>October 2010 - September 2012</aside>
+                </header>
+            </section>
+            <section>
+                <header class="flex row-wrap spaced">
+                    <div>
+                        <h4>Software Developer</h4>
+                        <div>Patton Electronics - Gaithersburg, MD</div>
+                    </div>
+                    <aside>October 2008 - January 2009</aside>
+                </header>
+            </section>
+        </article>
 
-      <article id="skills">
-        <h3>SKILLS</h3>
-          <section>
-              <span class="bold">Operating Systems:</span>
-              <span>Windows 2000, XP, Vista, 7, 8, and 10 systems; Mac OSX, Debian, OpenSUSE, CentOS, Kali, and Ubuntu distributions</span>
-          </section>
-          <section>
-              <span class="bold">Languages:</span>
-              <span>Rust, C, Java, Go, Python, Perl, C++, C#, JS/ES2017/Typescript, Solidity, HTML + CSS, PHP, SQL, 8086, MIPS, and AVR Assembly, Bash, Dos, Matlab, VHDL, and Verilog</span>
-          </section>
-          <section>
-              <span class="bold">Software Applications:</span>
-              <span>Adobe Photoshop, Illustrator, Dreamweaver, Flash, After Effects, and Fireworks; Xilinx ISE Design Suite, Cadence Virtuoso and Spectre; Microsoft Office, LTSpice, Atmel Studio, Matlab, Skipfish, Tenable Nessus, Core Impact, Immunity Canvas, Virtual Box, and VMWare ESXi, vSphere, Fusion and Workstation</span>
-          </section>
-      </article>
+        <article id="skills">
+            <h3>SKILLS</h3>
+            <section>
+                <span class="bold">Operating Systems:</span>
+                <span>Windows 2000, XP, Vista, 7, 8, and 10 systems; MacOS, Debian, OpenSUSE, CentOS, Kali, and Ubuntu
+                    distributions</span>
+            </section>
+            <section>
+                <span class="bold">Languages:</span>
+                <span>Kotlin, Rust, C, Java, Go, Python, Perl, C++, C#, Javascript, Typescript, Solidity, PHP, SQL,
+                    8086, MIPS, and AVR Assembly, Bash, Dos, Matlab, VHDL, and Verilog</span>
+            </section>
+            <section>
+                <span class="bold">Software Applications:</span>
+                <span>Adobe Photoshop, Illustrator, Dreamweaver, Flash, After Effects, and Fireworks; Xilinx ISE Design
+                    Suite, Cadence Virtuoso and Spectre; Microsoft Office, LTSpice, Atmel Studio, Matlab, Skipfish,
+                    Tenable Nessus, Core Impact, Immunity Canvas, Virtual Box, and VMWare ESXi, vSphere, Fusion and
+                    Workstation</span>
+            </section>
+        </article>
 
-      <article id="awards">
-        <h3>AWARDS AND RECOGNITIONS</h3>
-          <section>
-              <div class="flex row">
-                  <div>2014-2015</div>
-                  <div>President of UMBC A Capella Group</div>
-              </div>
-              <div class="flex row">
-                  <div>2011-2013</div>
-                  <div>UMBC Pep Band</div>
-              </div>
-              <div class="flex row">
-                  <div>2010-2013</div>
-                  <div>UMBC Varsity Track and Cross Country</div>
-              </div>
-              <div class="flex row">
-                  <div>2010</div>
-                  <div>Indoor Track 3A County, Regionals and MD. State Team Champions</div>
-              </div>
-              <div class="flex row">
-                  <div>2009-2010</div>
-                  <div>National Honor Society</div>
-              </div>
-              <div class="flex row">
-                  <div>2006-2010</div>
-                  <div>Academy of Information Technology</div>
-              </div>
-              <div class="flex row">
-                  <div>2009</div>
-                  <div>Eagle Scout Award</div>
-              </div>
-              <div class="flex row">
-                  <div>2007</div>
-                  <div>NCAC Boy Scout Council Impeesa Youth Leadership Training</div>
-              </div>
-          </section>
-      </article>
-  </main>
-  <footer>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 57.89 52.5">
-          <title>Logo</title>
-          <path d="M48,33.34q0,5.53-1.83,7.59a6.74,6.74,0,0,1-5.29,2,9.26,9.26,0,0,1-2.56-.36A5.72,5.72,0,0,1,36,41.31a6.38,6.38,0,0,1-1.62-2.41,10,10,0,0,1-.61-3.74v-18a9.61,9.61,0,0,1,.61-3.64A6.49,6.49,0,0,1,36,11.2a6.06,6.06,0,0,1,2.27-1.3,8.56,8.56,0,0,1,2.56-.4,9.19,9.19,0,0,1,2.55.36,5.72,5.72,0,0,1,2.31,1.34,6.67,6.67,0,0,1,1.65,2.73A14.13,14.13,0,0,1,48,18.5v.72h9.94q0-8.85-4.28-14T40.83,0H4.7V9.5H23.4v22A29.28,29.28,0,0,1,23,37.11a10.09,10.09,0,0,1-1.26,3.45,4.22,4.22,0,0,1-2.09,1.75,8,8,0,0,1-2.92.48,8.94,8.94,0,0,1-2.41-.29,5.06,5.06,0,0,1-2.12-1.21,6.63,6.63,0,0,1-1.55-2.38A10.29,10.29,0,0,1,10,35.06V32.4H0v2.27A21.17,21.17,0,0,0,1.19,41.9a16.89,16.89,0,0,0,3.38,5.6,15,15,0,0,0,5.26,3.67A17.62,17.62,0,0,0,16.7,52.5a17.79,17.79,0,0,0,6.8-1.29,14.82,14.82,0,0,0,5.11-3.49,15.58,15.58,0,0,0,5.23,3.47,17.83,17.83,0,0,0,7,1.31q8.7,0,12.88-5t4.18-14.79H48Z"/>
-      </svg>
-      <div>Copyright &#169; joncon.io</div>
-  </footer>
+        <article id="awards">
+            <h3>AWARDS AND RECOGNITIONS</h3>
+            <section>
+                <div class="flex row">
+                    <div>2014-2015</div>
+                    <div>President of UMBC A Capella Group</div>
+                </div>
+                <div class="flex row">
+                    <div>2011-2013</div>
+                    <div>UMBC Pep Band</div>
+                </div>
+                <div class="flex row">
+                    <div>2010-2013</div>
+                    <div>UMBC Varsity Track and Cross Country</div>
+                </div>
+                <div class="flex row">
+                    <div>2010</div>
+                    <div>Indoor Track 3A County, Regionals and MD. State Team Champions</div>
+                </div>
+                <div class="flex row">
+                    <div>2009-2010</div>
+                    <div>National Honor Society</div>
+                </div>
+                <div class="flex row">
+                    <div>2006-2010</div>
+                    <div>Academy of Information Technology</div>
+                </div>
+                <div class="flex row">
+                    <div>2009</div>
+                    <div>Eagle Scout Award</div>
+                </div>
+                <div class="flex row">
+                    <div>2007</div>
+                    <div>NCAC Boy Scout Council Impeesa Youth Leadership Training</div>
+                </div>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 57.89 52.5">
+            <title>Logo</title>
+            <path
+                d="M48,33.34q0,5.53-1.83,7.59a6.74,6.74,0,0,1-5.29,2,9.26,9.26,0,0,1-2.56-.36A5.72,5.72,0,0,1,36,41.31a6.38,6.38,0,0,1-1.62-2.41,10,10,0,0,1-.61-3.74v-18a9.61,9.61,0,0,1,.61-3.64A6.49,6.49,0,0,1,36,11.2a6.06,6.06,0,0,1,2.27-1.3,8.56,8.56,0,0,1,2.56-.4,9.19,9.19,0,0,1,2.55.36,5.72,5.72,0,0,1,2.31,1.34,6.67,6.67,0,0,1,1.65,2.73A14.13,14.13,0,0,1,48,18.5v.72h9.94q0-8.85-4.28-14T40.83,0H4.7V9.5H23.4v22A29.28,29.28,0,0,1,23,37.11a10.09,10.09,0,0,1-1.26,3.45,4.22,4.22,0,0,1-2.09,1.75,8,8,0,0,1-2.92.48,8.94,8.94,0,0,1-2.41-.29,5.06,5.06,0,0,1-2.12-1.21,6.63,6.63,0,0,1-1.55-2.38A10.29,10.29,0,0,1,10,35.06V32.4H0v2.27A21.17,21.17,0,0,0,1.19,41.9a16.89,16.89,0,0,0,3.38,5.6,15,15,0,0,0,5.26,3.67A17.62,17.62,0,0,0,16.7,52.5a17.79,17.79,0,0,0,6.8-1.29,14.82,14.82,0,0,0,5.11-3.49,15.58,15.58,0,0,0,5.23,3.47,17.83,17.83,0,0,0,7,1.31q8.7,0,12.88-5t4.18-14.79H48Z" />
+        </svg>
+        <div>Copyright &#169; joncon.io</div>
+    </footer>
 </body>
+
 </html>
